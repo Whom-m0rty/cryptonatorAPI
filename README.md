@@ -12,7 +12,9 @@ amount = Decimal('0.00015')
 invoice_id = api.create_invoice(
       item_name='test_tovar', 
       invoice_amount=amount, 
-      invoice_currency='bitcoin') #returns invoice_id
+      invoice_currency='bitcoin') 
+      
+#returns invoice_id
 ```
 
 Check Invoice
@@ -20,4 +22,6 @@ Check Invoice
 ```python
 status = api.check_invoice(invoice_id)
 print(status)
+
+#{'order_id': '2636351', 'amount': '0.00015000', 'currency': 'bitcoin', 'status': 'unpaid'}
 ```
