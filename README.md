@@ -13,9 +13,4 @@ invoice_id = api.create_invoice(
       invoice_amount=amount, 
       invoice_currency='bitcoin') #returns invoice_id```
 
-Check invoice
------------------------------------
-```status = api.check_invoice(invoice_id)
-print(status) 
-# returns {'order_id': '2636351', 'amount': '0.00015000', 'currency': 'bitcoin', 'status': 'unpaid'}
-```
+asd
