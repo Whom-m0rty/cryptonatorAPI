@@ -1,4 +1,9 @@
 # cryptonatorAPI
+
+Installation using pip
+-----------------------------------
+`pip install cryptonator-API`
+
 Сreate Invoice
 -----------------------------------
 ```python
