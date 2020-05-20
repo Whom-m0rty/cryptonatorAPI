@@ -8,6 +8,7 @@ api = Api(
       language='ru')
       
 amount = Decimal('0.00015')
+
 invoice_id = api.create_invoice(
       item_name='test_tovar', 
       invoice_amount=amount, 
