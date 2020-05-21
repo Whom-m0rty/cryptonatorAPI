@@ -1,13 +1,25 @@
 # cryptonatorAPI
 
+Все для вас, HashBotted
+
 Installation using pip
 -----------------------------------
 `pip install cryptonator-API`
 
+
+Import
+-----------------------------------
+
+```python
+cryptonator_API import cryptonatorAPI
+from decimal import Decimal
+```
+
+
 Сreate Invoice
 -----------------------------------
 ```python
-api = Api(
+api = cryptonatorAPI(
       merchant_id='4b8cc73b06e8205f4d212a7a8c0bb6497', 
       secret='b89a02b2801231fc8d60f65fe724448', 
       language='ru')
